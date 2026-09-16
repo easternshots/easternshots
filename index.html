@@ -1,61 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>لقطات شرقيه | Eastern Shots | أخبار ومحتوى المنطقة الشرقية</title>
-<meta name="description" content="لقطات شرقيه | Eastern Shots منصة اجتماعية سعودية تهتم بأخبار ومحتوى وفعاليات المنطقة الشرقية في الدمام والخبر والظهران والجبيل ومدن المنطقة الشرقية.">
-<meta name="robots" content="index,follow">
-<meta name="theme-color" content="#111111">
-<meta property="og:title" content="لقطات شرقيه | Eastern Shots">
-<meta property="og:description" content="أخبار ومحتوى وفعاليات المنطقة الشرقية في السعودية.">
-<meta property="og:type" content="website">
-<script type="application/ld+json">
-{
- "@context":"https://schema.org","@type":"Organization",
- "name":"لقطات شرقيه","alternateName":"Eastern Shots",
- "url":"https://heylink.me/eastern.shots/",
- "sameAs":[
- "https://www.snapchat.com/add/eastern.shots",
- "https://www.tiktok.com/@eastern.shots",
- "https://www.instagram.com/eastern.shots"
- ],
- "description":"لقطات شرقيه | Eastern Shots منصة اجتماعية سعودية تهتم بأخبار ومحتوى وفعاليات المنطقة الشرقية في المملكة العربية السعودية."
-}
-</script>
-<style>
-*{box-sizing:border-box}body{margin:0;background:#f5f2ed;color:#171717;font-family:Arial,Tahoma,sans-serif}
-main{max-width:760px;margin:auto;padding:28px 18px 50px}header{text-align:center;padding:35px 10px 25px}
-.logo{width:92px;height:92px;border-radius:50%;margin:auto auto 18px;background:#171717;color:#fff;display:grid;place-items:center;font-weight:800;font-size:24px}
-h1{font-size:34px;margin:0 0 7px}.en{color:#666;font-size:18px;direction:ltr}.tag{color:#555;font-size:17px;line-height:1.8}
-.card{background:#fff;border-radius:22px;padding:22px;margin:14px 0;box-shadow:0 5px 24px #0000000d}
-h2{font-size:20px;margin:0 0 12px}.about{font-size:16px;line-height:2;color:#444}
-.links{display:grid;gap:10px}.btn{display:block;text-align:center;text-decoration:none;color:#fff;background:#171717;border-radius:15px;padding:15px;font-size:17px;font-weight:700}
-footer{text-align:center;color:#777;font-size:13px;line-height:1.8;padding-top:18px}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لقطات شرقية | Eastern Shots</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+
+        .logo-container {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: #fff;
+            font-size: 32px;
+            font-weight: 800;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3);
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        .handle {
+            font-size: 15px;
+            color: #94a3b8;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
+        .bio {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+            padding: 0 10px;
+        }
+
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-bottom: 30px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            padding: 14px 20px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .link-btn:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: #f59e0b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            font-size: 13px;
+            color: #64748b;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 20px;
+        }
+    </style>
 </head>
 <body>
-<main>
-<header>
-<div class="logo">ES</div>
-<h1>لقطات شرقيه</h1>
-<div class="en">Eastern Shots · @eastern.shots</div>
-<p class="tag">منصة اجتماعية سعودية تهتم بأخبار ومحتوى وفعاليات المنطقة الشرقية 🇸🇦</p>
-</header>
-<section class="card">
-<h2>عن لقطات شرقيه</h2>
-<div class="about"><strong>لقطات شرقيه (Eastern Shots)</strong> منصة اجتماعية سعودية تقدم الأخبار والمعلومات والمحتوى المتنوع من المنطقة الشرقية في المملكة العربية السعودية. نشارك أبرز الأخبار والتحديثات والفعاليات والمناسبات والمحتوى المحلي من الدمام والخبر والظهران والجبيل ومدن ومحافظات المنطقة الشرقية.</div>
-</section>
-<section class="card">
-<h2>تابعنا</h2>
-<div class="links">
-<a class="btn" href="https://www.snapchat.com/add/eastern.shots" rel="me noopener" target="_blank">👻 Snapchat · Eastern Shots</a>
-<a class="btn" href="https://www.tiktok.com/@eastern.shots" rel="me noopener" target="_blank">♪ TikTok · @eastern.shots</a>
-<a class="btn" href="https://www.instagram.com/eastern.shots" rel="me noopener" target="_blank">◎ Instagram · @eastern.shots</a>
-<a class="btn" href="https://heylink.me/eastern.shots/" rel="me noopener" target="_blank">🔗 جميع الروابط · HeyLink</a>
-</div>
-</section>
-<footer>© 2026 لقطات شرقيه | Eastern Shots<br>أخبار ومحتوى المنطقة الشرقية في السعودية</footer>
-</main>
+
+    <div class="container">
+        <div class="logo-container">ES</div>
+        <h1>لقطات شرقية</h1>
+        <div class="handle">Eastern Shots · @eastern.shots</div>
+        <p class="bio">منصة اجتماعية سعودية تهتم بأخبار ومحتوى وفعاليات المنطقة الشرقية 🇸🇦</p>
+
+        <div class="links-list">
+            <a href="https://www.snapchat.com/add/eastern.shots" class="link-btn" target="_blank" rel="me noopener">
+                <span>👻</span> سناب شات · Snapchat
+            </a>
+            <a href="https://www.tiktok.com/@eastern.shots" class="link-btn" target="_blank" rel="me noopener">
+                <span>♪</span> تيك توك · TikTok
+            </a>
+            <a href="https://www.instagram.com/eastern.shots" class="link-btn" target="_blank" rel="me noopener">
+                <span>📸</span> انستغرام · Instagram
+            </a>
+            <a href="https://heylink.me/eastern.shots/" class="link-btn" target="_blank" rel="me noopener">
+                <span>🔗</span> جميع الروابط · HeyLink
+            </a>
+        </div>
+
+        <footer>
+            © 2026 لقطات شرقية | Eastern Shots
+        </footer>
+    </div>
+
 </body>
 </html>
