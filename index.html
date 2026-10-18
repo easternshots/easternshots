@@ -89,14 +89,18 @@
         }
 
         .logo-title {
-            font-size: 28px;
+            font-size: clamp(24px, 6vw, 28px);
             font-weight: 900;
             color: #111827;
-            letter-spacing: -0.5px;
+            letter-spacing: 0;
+            word-spacing: normal;
             margin-bottom: 2px;
-            display: flex;
-            align-items: center;
-            gap: 4px;
+            display: block;
+            text-align: center;
+            direction: rtl;
+            unicode-bidi: isolate;
+            white-space: nowrap;
+            line-height: 1.4;
         }
 
         .logo-title span.red {
